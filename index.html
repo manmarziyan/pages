@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Angular Material style sheet -->
+  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body ng-app="inputBasicDemo" ng-cloak>
+  <!--
+    Your HTML content here
+  -->
+
+  <!-- Angular Material requires Angular.js Libraries -->
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-aria.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-messages.min.js"></script>
+  <script src="script.js"></script>
+
+  <!-- Angular Material Library -->
+  <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.js"></script>
+
+  <div ng-controller="appCtrl" layout="column" style="background:white">
+    <div layout="column">
+      <md-toolbar layout="row" layout-align="space-between center" style="height:100px;position:fixed;color:black;background:white"><!--style="position: fixed;">-->
+        <span>Sangeetha</span>
+        <div>
+          <md-button>
+            Work
+          </md-button>
+          <md-button>
+            About
+          </md-button>
+          <md-button>
+            Contact
+          </md-button>
+        </div>
+      </md-toolbar>
+    <!-- be careful: nothing between md-toolbar and md-content -->
+      <md-content flex style="margin:150px 100px">
+        <div style="text-align: center">
+          <h1> Hi, blah blah blah</h1>
+          <h3>Lorem ipsum dolor sit amet, in nam minim reprehendunt. Mei te brute omnes, sonet dissentiunt his ex.</h3>
+        </div>
+        <div layout="row"  layout-align="space-between center" style="margin: 50px 0px">
+          <div style="height:500px;width:600px;background:blue">
+          </div>
+          <div style="height:500px;width:600px;background:yellow">
+          </div>
+        </div>
+        <div layout="row" layout-align="space-between center" style="margin: 50px 0px">
+          <div style="height:500px;width:600px;background:green">
+          </div>
+          <div style="height:500px;width:600px;background:red">
+          </div>
+        </div>
+
+      </md-content>
+    </div>
+
+  </div>
+
+</body>
+</html>
