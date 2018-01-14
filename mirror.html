@@ -1,46 +1,4 @@
-<!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Angular Material style sheet -->
-  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.css">
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700|Nunito+Sans:300,400,600,700,800" rel="stylesheet">
-</head>
-<body ng-app="myApp" ng-cloak>
-  <!--
-    Your HTML content here
-  -->
 
-  <!-- Angular Material requires Angular.js Libraries -->
-  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
-  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script>
-  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-aria.min.js"></script>
-  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-messages.min.js"></script>
-  <script src="script.js"></script>
-
-  <!-- Angular Material Library -->
-  <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.js"></script>
-
-  <div ng-controller="appCtrl" layout="column" style="background:white">
-    <div layout="column" class="parentLayout">
-    <!-- be careful: nothing between md-toolbar and md-content -->
-      <md-toolbar layout="row" layout-align="space-between center" class="navbar"><!--style="position: fixed;">-->
-        <img src="media/nameLogo.svg" alt="logo">
-        <div>
-          <md-button class="nav-button-active" md-ink-ripple="false" md-noink
-          ng-click="scrollTo('cp1')">
-            Work
-          </md-button>
-          <md-button class="nav-button">
-            About
-          </md-button>
-          <md-button class="nav-button">
-            Contact
-          </md-button>
-        </div>
-      </md-toolbar>
-    </div>
 
     <md-content>
 
@@ -428,11 +386,13 @@
                   <p class="letter">C</p>
                   More than just product details.
                   <strong>Reviews:</strong>
-                  Encourage shoppers to upload images of the product. All shapes and sizes. Points </br>
+                  Reviews are trustworthy, especially reviews with images. Maya can now compare her body type with
+                  other shoppers that have written reviews and be more confident of the quality and size of the product.
+                  To encourage shoppers to write reviews, Mirror awards reviewers points that can be redeemed on their next purchase. </br>
 
-                  <strong>Gallery:</strong> Inspiration</br>
+                  <strong>Gallery:</strong>images of Different ways of wearing the dress, for inspiration</br>
 
-                  <strong>Details:</strong></br>
+                  <strong>Details:</strong>Product details including size, material, make etc</br>
                 </div>
               </div>
 
@@ -451,8 +411,8 @@
               <div style="width:335px;float:left;margin-left:195px;margin-right:110px" class="content">
                 <div style="margin-top:650px;">
                   <p class="letter">D</p>
-                  Mood boardLorem ipsum dolor sit amet, sed at quod efficiantur, ut magna affert fabulas vis.
-                  Aeterno philosophia his no. Ea doming utamur phaedrum vim, usu graece offendit ea, ad qui cibo solum comprehensam.
+                  To help set the mood, I created a moodboard of the product. This makes it easier to envision the outfit and how
+                  it works in various situations. Especially helps Maya imagine a scenario where she could wear the dress, along with accessory ideas.
                 </div>
               </div>
 
@@ -515,16 +475,16 @@
 
           <!--Conclusion-->
           <div class="padding-200">
-            <h1 class="content-header-main">Conclusion</h1>
+            <h1 class="content-header-main">Next Steps</h1>
             <div class="margin-50"></div>
 
             <div class="content">
-              User testing with the InVision prototype was conducted with 5 participants in-person and remotely.
-              All users were able to easily navigate the website and find the product details page.
-              </br>
-              Most users found the website clean and clear. Some loved the focus on imagery.
-              </br>
-              Key findings based on user test results were summarized into an affinity map
+              The next steps are to replicate and adapt the templates and styles created to all the remaining pages of Mirror including: the checkout and payment process
+               along with the about and help pages.
+             </br>
+             As mirror curates it's products gets a fresh set of clothes everymonth,
+             working on the newletter and updating shoppers about trending clothes would be very interesting.
+
             </div>
           </div>
 
@@ -541,9 +501,3 @@
       </div>
 
     </md-content>
-
-
-  </div>
-
-</body>
-</html>
