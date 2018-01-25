@@ -123,7 +123,7 @@ html{
 .logo{
   cursor: pointer;
 }
-.cover-button{
+.cover-button.md-raised{
   width: 254px;
   height: 54px;
   padding:7px 0px;
@@ -136,7 +136,7 @@ html{
   margin: 0px
 }
 
-.md-button.cover-button:hover{
+.md-button.md-raised.cover-button:hover{
   width: 254px;
   height: 54px;
   padding:7px 0px;
