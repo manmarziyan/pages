@@ -124,7 +124,7 @@ html{
   cursor: pointer;
 }
 .cover-button{
-  width: 154px;
+  width: 254px;
   height: 54px;
   padding:7px 0px;
   color: #fff;
@@ -136,8 +136,8 @@ html{
   margin: 0px
 }
 
-.cover-button:hover{
-  width: 154px;
+.md-button.cover-button:hover{
+  width: 254px;
   height: 54px;
   padding:7px 0px;
   color: #fff;
