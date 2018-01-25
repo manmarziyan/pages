@@ -128,7 +128,7 @@ html{
   height: 54px;
   padding:7px 0px;
   color: #fff;
-  background: #252525;
+  background: #333333;
   font-family: 'Avenir-MediumOblique', sans-serif;
   font-size: 21px;
   font-style: italic;
@@ -136,6 +136,18 @@ html{
   margin: 0px
 }
 
+.cover-button:hover{
+  width: 154px;
+  height: 54px;
+  padding:7px 0px;
+  color: #fff;
+  background: #000;
+  font-family: 'Avenir-MediumOblique', sans-serif;
+  font-size: 21px;
+  font-style: italic;
+  text-transform: none;
+  margin: 0px
+}
 .content-large{
   font-family: 'Avenir-Book', sans-serif;
   font-size: 21px;
