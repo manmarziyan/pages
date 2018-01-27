@@ -123,20 +123,22 @@ html{
 .logo{
   cursor: pointer;
 }
-.cover-button.md-raised{
+
+.cover-button{
   width: 254px;
   height: 54px;
   padding:7px 0px;
-  color: #fff;
-  background: #333333;
+  color: #000;
+  background: #fff;
+  border: 2px solid #000;
   font-family: 'Avenir-MediumOblique', sans-serif;
   font-size: 21px;
   font-style: italic;
   text-transform: none;
-  margin: 0px
+  margin: 0px;
 }
 
-.md-button.md-raised.cover-button:hover{
+.md-button.cover-button:hover{
   width: 254px;
   height: 54px;
   padding:7px 0px;
