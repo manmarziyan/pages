@@ -72,7 +72,7 @@ html{
 }
 
 .navbar {
-  height:200px;
+  height:80px;
   background:rgba(255,255,255,0.9) !important;
 }
 
@@ -84,11 +84,11 @@ html{
   font-weight: 600;
 }
 
-.nav-button:hover{
+/*.nav-button:hover{
   color:#7A93AD;
   background:white;
   font-weight: 800;
-}
+}*/
 
 .nav-button:focus{
   color:#7A93AD;
@@ -267,10 +267,12 @@ html{
   font-size: 2vw;
   font-weight: 600;
   max-width: 38%;
+  height: 100%;
   border-radius: 5px;
-  padding: 1.5%;
+  padding: 0.3rem 0.5rem;
   text-transform: none;
   background-color: Transparent;
+  white-space: nowrap;
 }
 
 .btn-ditti:hover {
@@ -320,10 +322,9 @@ html{
 }
 
 /* Chrome 29+ */
-@media screen and (-webkit-min-device-pixel-ratio:0){
-  /*and (min-resolution:.001dpcm) {*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
 
-    .btn-mirror{
+  .btn-mirror{
     border: 0.2vw solid white;
     color: white;
     position: relative;
