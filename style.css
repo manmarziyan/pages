@@ -335,7 +335,7 @@ html{
     border: 0.2vw solid white;
     color: white;
     position: relative;
-    bottom: 10%;
+    bottom: 0%;
     left: 20%;
   }
 
@@ -343,7 +343,7 @@ html{
     border: 0.2vw solid black;
     color: black;
     position: relative;
-    bottom: 10%;
+    bottom: 0%;
     left: 20%;
   }
 }
