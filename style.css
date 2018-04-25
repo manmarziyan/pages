@@ -343,7 +343,7 @@ html{
     border: 0.2vw solid black;
     color: black;
     position: relative;
-    bottom: 0%;
+    bottom: 100%;
     left: 20%;
   }
 }
