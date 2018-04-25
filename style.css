@@ -278,14 +278,6 @@ html{
   color: #FFEB86;
 }
 
-.btn-ditti{
-  border: 0.2vw solid black;
-  color: black;
-  position: relative;
-  bottom: 30%;
-  left: 20%;
-}
-
 .container {
   position: relative;
 }
@@ -295,25 +287,65 @@ html{
   color: #67C0BE;
 }
 
-.btn-spotify{
-  border: 0.2vw solid white;
-  color: white;
-  position: relative;
-  bottom: 30%;
-  left: 20%;
-}
-
 .btn-mirror:hover {
   background-color: white;
   color: #E16C7A;
 }
 
-.btn-mirror{
-  border: 0.2vw solid white;
-  color: white;
-  position: relative;
-  bottom: 60%;
-  left: 22%;
+@-moz-document url-prefix() {
+    .btn-mirror{
+    border: 0.2vw solid white;
+    color: white;
+    position: relative;
+    bottom: 60%;
+    left: 22%;
+  }
+
+  .btn-spotify{
+    border: 0.2vw solid white;
+    color: white;
+    position: relative;
+    bottom: 30%;
+    left: 20%;
+  }
+
+  .btn-ditti{
+    border: 0.2vw solid black;
+    color: black;
+    position: relative;
+    bottom: 30%;
+    left: 20%;
+  }
+
+}
+
+/* Chrome 29+ */
+@media screen and (-webkit-min-device-pixel-ratio:0)
+  and (min-resolution:.001dpcm) {
+
+    .btn-mirror{
+    border: 0.2vw solid white;
+    color: white;
+    position: relative;
+    bottom: 30%;
+    left: 22%;
+  }
+
+  .btn-spotify{
+    border: 0.2vw solid white;
+    color: white;
+    position: relative;
+    bottom: 10%;
+    left: 20%;
+  }
+
+  .btn-ditti{
+    border: 0.2vw solid black;
+    color: black;
+    position: relative;
+    bottom: 10%;
+    left: 20%;
+  }
 }
 
 .moreProjects:hover{
