@@ -32,7 +32,6 @@ myApp.config(function($stateProvider, $urlRouterProvider) {
             url: '/ditti',
             templateUrl: 'ditti/ditti.html'
         })
-
         .state('spotify', {
             url: '/spotify',
             templateUrl: 'spotify/spotify.html'
