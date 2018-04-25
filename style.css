@@ -340,7 +340,7 @@ html{
   }
 
   .btn-ditti{
-    border: 0.2vw solid black;
+    border: 0.2vw solid red;
     color: black;
     position: relative;
     bottom: 100%;
