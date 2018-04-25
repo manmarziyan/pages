@@ -292,7 +292,7 @@ html{
   color: #E16C7A;
 }
 
-@-moz-document url-prefix() {
+/*@-moz-document url-prefix() {
     .btn-mirror{
     border: 0.2vw solid white;
     color: white;
@@ -317,7 +317,7 @@ html{
     left: 20%;
   }
 
-}
+}*/
 
 /* Chrome 29+ */
 @media screen and (-webkit-min-device-pixel-ratio:0)
