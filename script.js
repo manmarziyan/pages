@@ -62,7 +62,7 @@ myApp.run(function($rootScope, $state, $stateParams, $transitions){
   });
 })
 
-myApp.controller('appCtrl', function($scope, $location, $anchorScroll, $state) {
+myApp.controller('appCtrl', function($scope, $location, $anchorScroll, $state,) {
 
  $scope.hello = "hello";
  $scope.state = $state.current;
