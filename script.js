@@ -12,7 +12,7 @@
 
 })*/
 
-var myApp = angular.module('myApp', ['ui.router', 'ngMaterial', 'ngMdIcons']);
+var myApp = angular.module('myApp', ['ui.router', 'ngMaterial', 'ngMdIcons', 'angular-google-analytics']);
 
 myApp.config(function($stateProvider, $urlRouterProvider) {
 
@@ -55,16 +55,18 @@ myApp.config(function($stateProvider, $urlRouterProvider) {
 
 });
 
-myApp.run(function($rootScope, $state, $stateParams, $transitions){
+myApp.config(['AnalyticsProvider', function (AnalyticsProvider) {
+   // Add configuration code as desired
+   AnalyticsProvider.setAccount('UA-113143577-1');  
+}]).run(['Analytics', function(Analytics) { }]);
+
+myApp.run(function($rootScope, $state, $stateParams, $transitions, $location){
   $transitions.onSuccess({}, function() {
-    ga('set', 'page', $location.path());
-    ga('send', 'pageview');
+    /*ga('set', 'page', $location.path())
+    ga('send', 'pageview');*/
     document.body.scrollTop = document.documentElement.scrollTop = 0;
   });
-  
-  $rootScope.$on('$stateChangeSuccess', function (event) {
-    $window.ga('send', 'pageview', $location.path());
-  });
+
 })
 
 myApp.controller('appCtrl', function($scope, $location, $anchorScroll, $state,) {
