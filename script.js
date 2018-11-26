@@ -57,6 +57,8 @@ myApp.config(function($stateProvider, $urlRouterProvider) {
 
 myApp.run(function($rootScope, $state, $stateParams, $transitions){
   $transitions.onSuccess({}, function() {
+    ga('set', 'page', $location.path());
+    ga('send', 'pageview');
     document.body.scrollTop = document.documentElement.scrollTop = 0;
   });
   
