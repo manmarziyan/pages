@@ -59,6 +59,10 @@ myApp.run(function($rootScope, $state, $stateParams, $transitions){
   $transitions.onSuccess({}, function() {
     document.body.scrollTop = document.documentElement.scrollTop = 0;
   });
+  
+  $rootScope.$on('$stateChangeSuccess', function (event) {
+    $window.ga('send', 'pageview', $location.path());
+  });
 })
 
 myApp.controller('appCtrl', function($scope, $location, $anchorScroll, $state,) {
