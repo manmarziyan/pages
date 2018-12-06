@@ -1,24 +1,36 @@
 
-.default-text{
+/*.default-text{
   font-family: 'Open Sans', sans-serif;
   color: #3E4550;
   z-index:10;
+}*/
+
+.default-text{
+  font-family: 'Avenir-Book', sans-serif;
+  color:#252525;
+  z-index:10;
+}
+
+
+.main-header{
+  /*font-size: 35px;
+  font-weight:800;
+  padding:10px 0 20px 0;
+  margin: 0;*/
+  font-family: 'Avenir-Heavy', sans-serif;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 1.42px;
+  text-transform: uppercase;
 }
 
 /*.main-header{
-  font-size: 35px;
-  font-weight:800;
-  padding:10px 0 20px 0;
-  margin: 0;
-}*/
-
-.main-header{
   font-family: 'Open Sans', sans-serif;
   font-size: 34px;
   font-weight:600;
   padding:10px 0 20px 0;
   margin: 0;
-}
+}*/
 
 .header-highlight{
   background-color:#09E594;
@@ -36,22 +48,32 @@
   margin: 0;
 }
 
-.sub-header-padding{
+/*.sub-header-padding{
   font-size: 20px;
   font-weight:600;
   padding-bottom:20px
   margin: 0;
-}
-/*.content-text{
-  font-size: 20px;
-  line-height: 30px;
 }*/
 
+.sub-header-padding{
+  font-size: 20px;
+  font-weight:800;
+  padding-bottom:20px
+  margin: 0;
+}
 .content-text{
-  font-size: 17px;
-  line-height: 30px;
+  color:#252525;
+  font-family: 'Avenir-Book', sans-serif;
+  text-transform: none;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.57px;
 }
 
+/*.content-text{
+  font-size: 17px;
+  line-height: 30px;
+}*/
 /*.quote-text{
   font-weight: 300;
   line-height: 40px;
@@ -70,7 +92,15 @@
   padding: 40px 0 10px 0
 }
 
+
 p {
   padding:0;
   margin:0
+}
+
+.about-header{
+  font-family: 'Avenir-Heavy', sans-serif;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 1.42px;
 }
