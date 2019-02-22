@@ -62,8 +62,9 @@ myApp.config(['AnalyticsProvider', function (AnalyticsProvider) {
 
 myApp.run(function($rootScope, $state, $stateParams, $transitions, $location){
   $transitions.onSuccess({}, function() {
-    /*ga('set', 'page', $location.path())
-    ga('send', 'pageview');*/
+    ga('set', 'page', $location.path())
+    ga('send', 'pageview');
+    console.log('Loc path: ' + $location.path())
     document.body.scrollTop = document.documentElement.scrollTop = 0;
   });
 
